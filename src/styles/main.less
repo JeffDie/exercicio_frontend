@@ -4,10 +4,6 @@
 @breakpointMobile: ~"(max-width: 767px)";
 @breakpointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
 
-.maxWidth80 {
-    max-width: 80%;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +25,7 @@ li {
     margin: 0 auto;
 
     @media @breakpointTablet {
-        .maxWidth80();
+        max-width: 80%;
     }
 }
 
